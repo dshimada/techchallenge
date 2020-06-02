@@ -11,8 +11,8 @@
 	<groupId>com.derrickshimada</groupId>
 	<artifactId>techchallenge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>techchallenge</name>
+	<description>Derrick Shimada Tech Challenge</description>
 
 	<properties>
 		<java.version>14</java.version>
@@ -41,14 +41,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
-		<!-- tag::spring-hateoas[] -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-hateoas</artifactId>
-		</dependency>
-		<!-- end::spring-hateoas[] -->
-
+		
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -62,7 +55,19 @@
 			<scope>provided</scope>
 		</dependency>
 
-	</dependencies>
+	
+   <dependency>
+     <groupId>junit</groupId>
+     <artifactId>junit</artifactId>
+     <version>4.12</version>
+   </dependency>
+ 
+   <dependency>
+     <groupId>org.mockito</groupId>
+     <artifactId>mockito-all</artifactId>
+     <version>1.10.19</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
